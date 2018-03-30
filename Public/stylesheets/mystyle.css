@@ -1,0 +1,29 @@
+body{
+  background-color: lightblue;
+}
+.wrapper{
+  display: flex;
+}
+.container{
+  width: 30%;
+}
+.innerItem{
+  background-color: lightpink;
+  padding: 1em;
+  margin: 1em;
+}
+.outerItem{
+  background-color: lightpink;
+  width: 30%;
+  padding: 1em;
+  margin: 1em;
+}
+th, td{
+  border: 1px solid lightblue;
+}
+.outerItem table{
+  border: 1px solid lightblue;
+}
+.outerItem td{
+  border: none;
+}
